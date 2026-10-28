@@ -12,8 +12,5 @@ out/
 # Vercel
 .vercel
 
-# OS junk
-.DS_Store
-
 # IDE
 .vscode/

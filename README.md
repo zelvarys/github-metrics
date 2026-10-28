@@ -1,9 +1,9 @@
-## GitHub Analytics
+## GitHub Metrics
 
 Generate beautiful and customizable stats cards for your GitHub profile README which includes stars, contributions, top languages, monthly chart and more
 
 <p align="center">
-  <img src="https://github-analytics-incog.vercel.app/api?username=torvalds&theme=github_dark&profile=false" alt="GitHub Analytics" />
+  <img src="https://github-metrics-incog.vercel.app/api?username=torvalds&theme=github_dark&profile=false" alt="GitHub Metrics" />
 </p>
 
 ---
@@ -13,11 +13,11 @@ Generate beautiful and customizable stats cards for your GitHub profile README w
 Add this to your GitHub profile README and replace `YOUR_USERNAME` with your username.
 ```markdown
 <p align="center">
-  <img src="https://github-analytics-incog.vercel.app/api?username=YOUR_USERNAME" alt="GitHub Analytics" />
+  <img src="https://github-metrics-incog.vercel.app/api?username=YOUR_USERNAME" alt="GitHub Metrics" />
 </p>
 ```
 
-or visit <a href="https://github-analytics-incog.vercel.app">GitHub Analytics</a> to customize your stats card and copy to your profile README
+or visit <a href="https://github-metrics-incog.vercel.app">GitHub Metrics</a> to customize your stats card and copy to your profile README
 
 ---
 
