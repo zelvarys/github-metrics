@@ -43,7 +43,7 @@ export default function Home() {
   }
 
   function getMarkdownCode() {
-    return `<div align="center">\n  <img src="${getImageUrl()}" alt="GitHub Analytics" />\n</div>`;
+    return `<div align="center">\n  <img src="${getImageUrl()}" alt="GitHub Metrics" />\n</div>`;
   }
 
   function isDirty() {
@@ -90,7 +90,7 @@ export default function Home() {
           </div>
           <img src="${getImageUrl()}&_t=${refreshKey}" 
              style="max-width:100%;height:auto;opacity:0.3;"
-             alt="GitHub Analytics Preview" 
+             alt="GitHub Metrics Preview" 
              onerror={handleImageError} />
         </div>
       `;
@@ -118,7 +118,7 @@ export default function Home() {
         <div style="position:relative;width:100%;display:flex;justify-content:center;">
           <img src="${imageUrl}&_t=${refreshKey}" 
              class="preview-img"
-             alt="GitHub Analytics Preview" 
+             alt="GitHub Metrics Preview" 
              onerror={handleImageError} />
         </div>
       `;
@@ -220,7 +220,7 @@ export default function Home() {
         <div className="container">
           <div className="logo"><i className="fab fa-github"></i></div>
           <div className="title-group">
-            <h1>GitHub Analytics</h1>
+            <h1>GitHub Metrics</h1>
             <p>Generate beautiful stats cards for your GitHub profile</p>
           </div>
         </div>
@@ -346,7 +346,7 @@ export default function Home() {
         <footer>
           <p>
             Free and open source • 
-            <a href="https://github.com/zelvarys/github-analytics" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a>
+            <a href="https://github.com/zelvarys/github-metrics" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a>
           </p>
         </footer>
       </main>

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
-  title: 'GitHub Analytics',
+  title: 'GitHub Metrics',
   description: 'Generate beautiful stats cards for your GitHub profile',
   icons: {
     icon: '/icon.svg',
@@ -22,7 +23,10 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
         <link rel="icon" href="icon.svg" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+      <Analytics/>
+      </body>
     </html>
   );
 }
