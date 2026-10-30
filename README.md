@@ -23,7 +23,11 @@ or visit <a href="https://github-metrics-incog.vercel.app">GitHub Metrics</a> to
 
 ### Documentation
 
-See [docs](docs/README.md) for the [API reference](docs/api.md), [themes](docs/themes.md), and [self-hosting](docs/self-hosting.md) guides.
+- [API reference](docs/api.md): query parameters and how to embed a card.
+- [Themes](docs/themes.md): available themes and how to add one.
+- [Self-hosting](docs/self-hosting.md): run and deploy your own instance.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup.
 
 ---
 
