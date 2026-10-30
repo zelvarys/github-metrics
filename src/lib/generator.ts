@@ -203,7 +203,7 @@ function renderStatsCard(stats: GitHubStats, theme: ThemeColors, startY: number,
 
   const statsSvgParts = statItems.map((item, index) => {
     const y = index * 27;
-    return `<g transform="translate(0, ${y})">${renderIcon(item.icon, 0, 0, item.color, 16)}<text x="26" y="12" font-size="13" fill="${theme.textSecondary}" font-family="${FONT_FAMILY}" letter-spacing="0.3">${item.label}</text><text x="230" y="12" font-size="14" font-weight="600" fill="${theme.text}" font-family="${FONT_FAMILY}" text-anchor="end" letter-spacing="0.2">${item.value.toLocaleString()}</text></g>`;
+    return `<g transform="translate(0, ${y})">${renderIcon(item.icon, 0, 0, item.color, 16)}<text x="26" y="12" font-size="13" fill="${theme.textSecondary}" font-family="${FONT_FAMILY}" letter-spacing="0.3">${item.label}</text><text x="235" y="12" font-size="14" font-weight="600" fill="${theme.text}" font-family="${FONT_FAMILY}" text-anchor="end" letter-spacing="0.2">${item.value.toLocaleString()}</text></g>`;
   });
 
   const gradeX = cardWidth - 90;
