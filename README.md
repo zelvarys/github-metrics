@@ -27,10 +27,4 @@ or visit <a href="https://github-metrics-incog.vercel.app">GitHub Metrics</a> to
 - [Themes](docs/themes.md): available themes and how to add one.
 - [Self-hosting](docs/self-hosting.md): run and deploy your own instance.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup.
-
----
-
-### Contributing
-
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and PR guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and PR guidelines.
