@@ -21,6 +21,12 @@ or visit <a href="https://github-metrics-incog.vercel.app">GitHub Metrics</a> to
 
 ---
 
+### Documentation
+
+See [docs](docs/README.md) for the [API reference](docs/api.md), [themes](docs/themes.md), and [self-hosting](docs/self-hosting.md) guides.
+
+---
+
 ### Contributing
 
-Contributions are welcome. Fork the repository, create a feature branch, commit your changes, push to the branch, and Open a Pull Request
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and PR guidelines.
